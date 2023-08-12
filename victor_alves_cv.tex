@@ -15,6 +15,9 @@
 \usepackage{fontawesome}
 \input{glyphtounicode}
 
+\usepackage[backend=bibtex,defernumbers=true,maxbibnames=10]{biblatex}
+\addbibresource{papers.bib}
+
 
 %---------- FONT OPTIONS ----------
 % sans-serif
@@ -282,6 +285,20 @@
 %     }}
 %   \resumeSubHeadingListEnd
 
+% ---------- RESEARCH PUBLICATIONS -------
+
+\setlength{\bibhang}{3pt}
+\defbibenvironment{bibliography}
+{\list
+	{}
+	{\setlength{\leftmargin}{\bibhang}%
+		\setlength{\itemindent}{-\leftmargin}%
+		\setlength{\itemsep}{\bibitemsep}%
+		\setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\item}
+\nocite{*}
+\printbibliography[env = bibliography, title= Selected Research Publications - Complete list on my {\href{https://scholar.google.com/citations?user=SNptGbgAAAAJ&hl=en}{\color{blue}Google Scholar.}} ]
 
 
 %----------- PROJECTS -----------

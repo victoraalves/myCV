@@ -22,29 +22,29 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: victor_alves_cv-blx.bib
 Database file #2: papers.bib
-Biblatex version: 3.18
+Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 5 entries,
             6399 wiz_defined-function locations,
-            1232 strings with 9895 characters,
-and the built_in function-call counts, 50896 in all, are:
-= -- 4429
+            1232 strings with 9897 characters,
+and the built_in function-call counts, 50908 in all, are:
+= -- 4430
 > -- 699
 < -- 199
 + -- 1297
 - -- 279
-* -- 4037
-:= -- 5968
+* -- 4038
+:= -- 5970
 add.period$ -- 0
 call.type$ -- 5
 change.case$ -- 107
 chr.to.int$ -- 44
 cite$ -- 8
 duplicate$ -- 4151
-empty$ -- 4418
+empty$ -- 4419
 format.name$ -- 357
-if$ -- 10506
+if$ -- 10509
 int.to.chr$ -- 0
 int.to.str$ -- 12
 missing$ -- 0
@@ -54,9 +54,9 @@ pop$ -- 1541
 preamble$ -- 1
 purify$ -- 139
 quote$ -- 0
-skip$ -- 1056
+skip$ -- 1057
 stack$ -- 0
-substring$ -- 9378
+substring$ -- 9381
 swap$ -- 749
 text.length$ -- 163
 text.prefix$ -- 4

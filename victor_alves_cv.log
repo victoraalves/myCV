@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.28)  15 SEP 2023 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.28)  18 SEP 2023 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,7 +600,7 @@ L3 programming layer <2023-08-11>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `victor_alves_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 50B8B919ACFA9A6A19F98EA67E3C7B06;730.
+(rerunfilecheck)             Checksum: 48AA08B649A328203A6D0010D572AF9D;796.
 Package logreq Info: Writing requests to 'victor_alves_cv.run.xml'.
 \openout1 = `victor_alves_cv.run.xml'.
 
@@ -614,9 +614,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,81p,1920b,1737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/vc00004/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on victor_alves_cv.pdf (2 pages, 157249 bytes).
+Output written on victor_alves_cv.pdf (2 pages, 158891 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

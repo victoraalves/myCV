@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2022.1.30)  25 SEP 2023 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2022.1.30)  1 OCT 2023 12:48
 entering extended mode
 **v:/Documents/myCV/victor_alves_cv.tex
 (v:/Documents/myCV/victor_alves_cv.tex
@@ -596,7 +596,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `victor_alves_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 7A61E461B8B5DE2B76051F663A355ADF;730.
+(rerunfilecheck)             Checksum: 58258BAFF15F5583D3627B457E8002B5;730.
 Package logreq Info: Writing requests to 'victor_alves_cv.run.xml'.
 \openout1 = `victor_alves_cv.run.xml'.
 
@@ -604,15 +604,15 @@ Package logreq Info: Writing requests to 'victor_alves_cv.run.xml'.
 Here is how much of TeX's memory you used:
  19361 strings out of 478681
  337647 string characters out of 2846061
- 862003 words of memory out of 3000000
+ 865003 words of memory out of 3000000
  37241 multiletter control sequences out of 15000+600000
  410013 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,1874b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on victor_alves_cv.pdf (2 pages, 157430 bytes).
+Output written on victor_alves_cv.pdf (2 pages, 158647 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

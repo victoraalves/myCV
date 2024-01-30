@@ -94,11 +94,11 @@
 
   \entry{alves2018metamodel}{article}{}
     \name{author}{4}{}{%
-      {{hash=AVM}{%
+      {{hash=AV}{%
          family={Alves},
          familyi={A\bibinitperiod},
-         given={Victor\bibnamedelima MC},
-         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
       }}%
       {{hash=LFS}{%
          family={Lima},
@@ -122,8 +122,8 @@
     \list{publisher}{1}{%
       {ACS Publications}%
     }
-    \strng{namehash}{AVM+1}
-    \strng{fullhash}{AVMLFSSSKAAC1}
+    \strng{namehash}{AV+1}
+    \strng{fullhash}{AVLFSSSKAAC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -138,19 +138,20 @@
   \endentry
 
   \entry{lima2020metacontrol}{article}{}
-    \name{author}{3}{}{%
+    \name{author}{4}{}{%
       {{hash=LFS}{%
          family={Lima},
          familyi={L\bibinitperiod},
          given={Felipe\bibnamedelima Souza},
          giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
-      {{hash=AVMC}{%
+      {{hash=AV}{%
          family={Alves},
          familyi={A\bibinitperiod},
-         given={Victor Manuel\bibnamedelima Cunha},
-         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=}{%
       }}%
       {{hash=AACB}{%
          family={Araujo},
@@ -163,8 +164,8 @@
     \list{publisher}{1}{%
       {Elsevier}%
     }
-    \strng{namehash}{LFSAVMCAACB1}
-    \strng{fullhash}{LFSAVMCAACB1}
+    \strng{namehash}{LFS+1}
+    \strng{fullhash}{LFSAVAACB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{L}

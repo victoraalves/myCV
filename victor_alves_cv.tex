@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,12pt]{article}
 
 \fontsize{10.25}{14}\selectfont
 
@@ -16,10 +16,30 @@
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \input{glyphtounicode}
+\usepackage{xstring} % Needed for string comparison
 
 \usepackage[backend=bibtex,defernumbers=true,maxbibnames=10]{biblatex}
 \addbibresource{papers.bib}
 
+\DeclareNameFormat{author}{%
+  \ifboolexpr{ test {\ifdefstring{\namepartfamily}{Alves}} and
+               ( test {\ifdefstring{\namepartgiven}{Victor}} or
+                 test {\ifdefstring{\namepartgiven}{Victor Manuel Cunha}} or
+                 test {\ifdefstring{\namepartgiven}{Victor M.C.}} or
+                 test {\ifdefstring{\namepartgiven}{Victor MC}} ) }
+    {%
+      \mkbibbold{\namepartfamily\addcomma\space\namepartgiven}%
+      \ifthenelse{\value{listcount}<\value{liststop}}
+        {\addcomma\space}
+        {\addspace}
+    }
+    {%
+      \namepartfamily\addcomma\space\namepartgiven%
+      \ifthenelse{\value{listcount}<\value{liststop}}
+        {\addcomma\space}
+        {\addspace}
+    }%
+}
 
 %---------- FONT OPTIONS ----------
 % sans-serif
@@ -218,6 +238,60 @@
 
 
 
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Research Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {West Virginia University}{Morgantown, WV, USA}
+      {Graduate Research Assistant (Ph.D.)}{Aug 2020 \textbf{--} Currently}
+        \resumeItemListStart
+            \resumeItem{Currently working with Dr. Fernando V. Lima on the development of emerging techniques for process operability calculations, involving mainly supervised machine-learning, constrained nonlinear programming (NLP) and automatic differentiation (AD) for efficient algorithm development.}
+            \resumeItem{Development of an open-source Python package for process operability calculations, for ease-of-use and dissemination of operability algorithms in academia and industry.}
+            \resumeItem{Control, Optimization and Design for Energy and Sustainability (CODES) research group leader, supervising the group's activities, as well as organizing the semester schedule, workshops, weekly meetings and relevant announcements.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Federal University of Campina Grande}{Campina Grande, Paraiba, Brazil}
+      {Graduate Research Assistant (M.Sc.)}{Sep 2017 \textbf{--} Mar 2020}
+        \resumeItemListStart
+            \resumeItem{M.Sc. thesis: ``Metamodel-based Numerical Techniques for Self-Optimizing Control'': Developed a methodology capable of using Gaussian Process Regression (GPR) to aid the optimal selection of controlled variables (CVs) in industrial processes, following the Self-Optimizing Control (SOC) methodology.}
+        \resumeItemListEnd
+
+
+
+
+
+    \resumeSubheading
+    {University of Birmingham}{Birmingham, United Kingdom}
+      {Undergraduate Researcher (B.Sc.)}{Sep 2014 \textbf{--} Aug 2015}
+        \resumeItemListStart
+            \resumeItem{Project: ``Development of User-Friendly Labs and Simulations for Undergraduate Teaching''.}
+            \resumeItem{Undergraduate research project done while studying abroad at the UK.}
+            \resumeItem{Funded by the Brazilian National Council for Scientific and Technological Development (CNPq).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Federal University of Campina Grande}{Campina Grande, Paraiba, Brazil}
+      {Undergraduate Researcher (B.Sc.)}{Aug 2013 \textbf{--} Aug 2014}
+        \resumeItemListStart
+            \resumeItem{Project: ``Simulation of the Catalytic Hydrotreating Process of Petroleum Fractions in Fixed Bed Reactors".}
+            \resumeItem{Funded by the Brazilian National Council for Scientific and Technological Development (CNPq).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Federal University of Campina Grande}{Campina Grande, Paraiba, Brazil}
+      {Undergraduate Researcher (B.Sc.)}{Aug 2012 \textbf{--} Aug 2013}
+        \resumeItemListStart
+            \resumeItem{Project: ``Use of the Computational Approaches in Solving Chemical Engineering Problems''.}
+            \resumeItem{Funded by the Brazilian National Council for Scientific and Technological Development (CNPq).}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
 
 %----------- WORK EXPERIENCE -----------
 
@@ -265,35 +339,13 @@
 \resumeSubHeadingListEnd
 
 
-%----------- RESEARCH EXPERIENCE -----------
 
-\section{Research Experience}
-  \vspace{3pt}
-  \resumeSubHeadingListStart
-  
-    \resumeSubheading
-      {West Virginia University}{Morgantown, WV, USA}
-      {Graduate Research Assistant (Ph.D.)}{Aug 2020 \textbf{--} Currently}
-        \resumeItemListStart
-            \resumeItem{Currently working with Dr. Fernando V. Lima on the development of emerging techniques for process operability calculations, involving mainly supervised machine-learning, constrained nonlinear programming (NLP) and automatic differentiation (AD) for efficient algorithm development.}
-            \resumeItem{Development of an open-source Python package for process operability calculations, for ease-of-use and dissemination of operability algorithms in academia and industry.}
-            \resumeItem{Control, Optimization and Design for Energy and Sustainability (CODES) research group leader, supervising the group's activities, as well as organizing the semester schedule, workshops, weekly meetings and relevant announcements.}
-        \resumeItemListEnd
-    
-    \resumeSubheading
-      {Federal University of Campina Grande}{Campina Grande, Paraiba, Brazil}
-      {Graduate Research Assistant (M.Sc.)}{Sep 2017 \textbf{--} Mar 2020}
-        \resumeItemListStart
-            \resumeItem{M.Sc. thesis: ``Metamodel-based Numerical Techniques for Self-Optimizing Control'': Developed a methodology capable of using Gaussian Process Regression (GPR) to aid the optimal selection of controlled variables (CVs) in industrial processes, following the Self-Optimizing Control (SOC) methodology.}
-        \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
 
 
 
 %----------- PROJECTS -----------
 
-\section{Projects}
+\section{Projects - Software Products}
     \vspace{3pt}
     \resumeSubHeadingListStart
       
@@ -368,7 +420,7 @@
 {\list
 	{}
 	{\setlength{\leftmargin}{\bibhang}%
-		\setlength{\itemindent}{-\leftmargin}%
+		\setlength{\itemindent}{\leftmargin}%
 		\setlength{\itemsep}{\bibitemsep}%
 		\setlength{\parsep}{\bibparsep}}}
 {\endlist}
@@ -376,16 +428,56 @@
 \nocite{*}
 \printbibliography[env = bibliography, title= Selected Research Publications - Complete list on my {\href{https://scholar.google.com/citations?user=SNptGbgAAAAJ&hl=en}{\color{blue}Google Scholar.}}]
 
+
+%----------- PRESENTATIONS------------------
+
+\section{Conference Presentations and Seminars}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    {\item{
+        \textbf{Alves V.}, Seminar: Recent Developments and Implementations in Process Operability Analysis, Carnegie Mellon University, Pittsburgh, PA. 2023.
+        \\ \vspace{3pt}
+      
+          % \textbf{Minor coursework:}{ }
+      }}
+    {\item{
+      Sweeney D., \textbf{Alves V.}, Sakhai S., Dinh S. and Lima F. V. Techno-economic Optimization of a Palladium Membrane Reactor for Steam Methane Reforming Industrial Process. AIChE Annual Student Conference \textit{\textbf{($3^{rd}$ place award)}}, Phoenix, AZ. 2022.
+      \\ \vspace{3pt}
+    
+        % \textbf{Minor coursework:}{ }
+    }}
+    {\item{\textbf{Alves V.}, Dinh S. and Lima F. V. An Open-Source Python-Based Toolbox for Enabling User-Friendly Process Operability Calculations. AIChE Annual Meeting, Phoenix, AZ. 2022.
+    \\ \vspace{3pt}}
+    }
+
+    {\item{\textbf{Alves V.} and Lima F. V. A Gaussian Process–Based Process Operability Framework and a Python Toolbox for Operability Calculations. Bio Processes, Control, Optimization, and Industry 4.0 Online Conference. 2022.} \\ \vspace{3pt}}
+
+    {\item{Sakhai S., \textbf{Alves V.} and Lima F. V. Modeling and Optimization of a Membrane Reactor for the Steam Methane Reforming Process. AIChE Annual Meeting, Boston MA. 2021.
+    } \\ \vspace{3pt}}
+
+    {\item{\textbf{Alves. V}, Dinh S. and Lima F.V.  Dynamic Operability Analysis Employing Kriging-Based Surrogate Models. AIChE Annual Meeting, Boston MA. 2021.
+    } \\ \vspace{3pt}}
+
+    {\item{\textbf{Alves. V}, Gazzaneo V., Lima F.V.  A Framework for Steady-State Process Operability Analysis Using Kriging-Based Surrogate Models. AIChE Annual Meeting, Boston MA. 2021.}} 
+
+  \resumeSubHeadingListEnd
+
 %----------- RELEVANT COURSEWORK -----------
 
-\section{Relevant Coursework}
+
+\section{Complementary Courses}
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Major coursework:}{ Transport Phenomena, Advanced Chemical Engineering Thermodynamics, Chemical Reaction Engineering, Mathematical Methods in Chemical Engineering, Statistical Methods, Oil and Gas Refining, Teaching Practicum, Dynamic Simulations, Linear Control Systems, Advanced Optimization} \\ \vspace{3pt}
-        
+        \textbf{West Virginia University:}{ Transport Phenomena; Advanced Chemical Engineering Thermodynamics; Chemical Reaction Engineering; Mathematical Methods in Chemical Engineering; Statistical Methods; Oil and Gas Refining; Teaching Practicum; Dynamic Simulations; Linear Control Systems; Advanced Optimization.} \\ \vspace{3pt}
+    
         % \textbf{Minor coursework:}{ }
     }}
+    \small{\item{\textbf{University of Birmingham:}{ Reactors and Catalysis; Process Systems; Principles of Process Control; Mass, Heat and Momentum Transport; Process Integration and Unit Operations; Computing for Design.} \\ \vspace{3pt}}
+    }
+
+    \small{\item{\textbf{Federal University of Campina Grande:}{ Probability and Statistics; Transport Phenomena; Introduction to Plantwide Control; Reactor Analysis.} \\ \vspace{3pt}}
+    }
   \resumeSubHeadingListEnd
 
 
@@ -394,6 +486,40 @@
   \resumeSubHeadingListStart
   \resumeTeachingHeading{Chemical Process Control}{West Virginia University}{Teaching Assistant}{Spring, 2023}
   
+\resumeSubHeadingListEnd
+
+
+\section{Mentoring}
+\vspace{3pt}
+\resumeSubHeadingListStart
+\resumeTeachingHeading{Undergraduate Research Mentor}{West Virginia University}{Graduate Research Assistant}{May 2021 - May 2023}
+\small{\item{
+        \textbf{Description: }{Mentored two senior undergraduate chemical engineering students, introducing them to research practices related to simulation projects in hydrogen production and membrane reactor modeling.} \\ \vspace{3pt}
+        
+        % \textbf{Minor coursework:}{ }
+    }}
+
+\resumeSubHeadingListEnd
+
+
+\section{Service}
+\vspace{3pt}
+\resumeSubHeadingListStart
+\resumeTeachingHeading{CODES Research Group Leader}{West Virginia University}{}{May 2021 - May 2023}
+{\item{
+        \textbf{Description: }{Student Leader of the Control, Optimization, and Design for Energy and Sustainability (CODES) Group, responsible for overseeing the group's activities, organizing workshops, and planning the group's semester schedule.} \\ \vspace{3pt}
+        
+        % \textbf{Minor coursework:}{ }
+    }}
+
+\resumeTeachingHeading{Aspen Plus Equation Oriented Workshop}{CODES Research Group }{}{Jan 2024}
+
+\resumeTeachingHeading{LaTeX Workshop}{CODES Research Group }{}{July 2023}
+
+\resumeTeachingHeading{GitHub Workshop}{CODES Research Group }{}{Feb 2023}
+
+\resumeTeachingHeading{Python Workshop}{CODES Research Group }{}{June 2021}
+
 \resumeSubHeadingListEnd
 
 %----------- CERTIFICATES -----------

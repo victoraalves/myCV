@@ -16,10 +16,35 @@
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \input{glyphtounicode}
+\usepackage{xstring} % Needed for string comparison
+
 
 \usepackage[backend=bibtex,defernumbers=true,maxbibnames=10]{biblatex}
 \addbibresource{papers.bib}
 
+
+
+
+
+\DeclareNameFormat{author}{%
+  \ifboolexpr{ test {\ifdefstring{\namepartfamily}{Alves}} and
+               ( test {\ifdefstring{\namepartgiven}{Victor}} or
+                 test {\ifdefstring{\namepartgiven}{Victor Manuel Cunha}} or
+                 test {\ifdefstring{\namepartgiven}{Victor M.C.}} or
+                 test {\ifdefstring{\namepartgiven}{Victor MC}} ) }
+    {%
+      \mkbibbold{\namepartfamily\addcomma\space\namepartgiven}%
+      \ifthenelse{\value{listcount}<\value{liststop}}
+        {\addcomma\space}
+        {\addspace}
+    }
+    {%
+      \namepartfamily\addcomma\space\namepartgiven%
+      \ifthenelse{\value{listcount}<\value{liststop}}
+        {\addcomma\space}
+        {\addspace}
+    }%
+}
 
 %---------- FONT OPTIONS ----------
 % sans-serif

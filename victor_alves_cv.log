@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2022.1.30)  31 JAN 2024 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2022.1.30)  31 JAN 2024 15:32
 entering extended mode
 **v:/Documents/myCV/victor_alves_cv.tex
 (v:/Documents/myCV/victor_alves_cv.tex
@@ -577,11 +577,11 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inpu
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 221.
+(Font)              <10.95> on input line 220.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 221.
+(Font)              <8> on input line 220.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 221.
+(Font)              <6> on input line 220.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -615,9 +615,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,1874b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on victor_alves_cv.pdf (2 pages, 160434 bytes).
+Output written on victor_alves_cv.pdf (2 pages, 158869 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

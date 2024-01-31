@@ -94,11 +94,11 @@
 
   \entry{alves2018metamodel}{article}{}
     \name{author}{4}{}{%
-      {{hash=AVM}{%
+      {{hash=AV}{%
          family={Alves},
          familyi={A\bibinitperiod},
-         given={Victor\bibnamedelima MC},
-         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
       }}%
       {{hash=LFS}{%
          family={Lima},
@@ -122,8 +122,8 @@
     \list{publisher}{1}{%
       {ACS Publications}%
     }
-    \strng{namehash}{AVM+1}
-    \strng{fullhash}{AVMLFSSSKAAC1}
+    \strng{namehash}{AV+1}
+    \strng{fullhash}{AVLFSSSKAAC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -145,12 +145,11 @@
          given={Felipe\bibnamedelima Souza},
          giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
-      {{hash=AVMC}{%
+      {{hash=AV}{%
          family={Alves},
          familyi={A\bibinitperiod},
-         given={Victor Manuel\bibnamedelima Cunha},
-         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
       }}%
       {{hash=AACB}{%
          family={Araujo},
@@ -160,18 +159,35 @@
   B\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{LFSAVMCAACB1}
-    \strng{fullhash}{LFSAVMCAACB1}
+    \keyw{Plantwide control, Self-Optimizing control, Kriging, Python,
+  Software}
+    \strng{namehash}{LFSAVAACB1}
+    \strng{fullhash}{LFSAVAACB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{L}
     \field{sortinithash}{L}
+    \field{abstract}{%
+    In this contribution, a detailed description of a Python based application
+  tool that enables fast implementation of the Self-Optimizing Control (SOC)
+  technology with the help of surrogate models is presented. The paper also
+  outlines the potential uses of the Metacontrol (from Metamodel-based
+  self-optimizing control) software through case studies of representative
+  test-bed industrial processes. As a result, an in-depth analysis of
+  Metacontrol from a plantwide control perspective is discussed, together with
+  recommendations for use. The data, examples, and the Metacontrol source code
+  are available for download at https://github.com/feslima/metacontrol.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.compchemeng.2020.106979
+    \endverb
+    \field{issn}{0098-1354}
     \field{pages}{106979}
     \field{title}{Metacontrol: A Python based application for self-optimizing
   control using metamodels}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0098135420303355
+    \endverb
     \field{volume}{140}
     \field{journaltitle}{Computers \& Chemical Engineering}
     \field{year}{2020}

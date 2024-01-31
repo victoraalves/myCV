@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2022.1.30)  31 JAN 2024 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2022.1.30)  31 JAN 2024 14:54
 entering extended mode
 **v:/Documents/myCV/victor_alves_cv.tex
 (v:/Documents/myCV/victor_alves_cv.tex
@@ -602,17 +602,17 @@ Package logreq Info: Writing requests to 'victor_alves_cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19370 strings out of 478681
- 337909 string characters out of 2846061
+ 19375 strings out of 478681
+ 338025 string characters out of 2846061
  863070 words of memory out of 3000000
- 37248 multiletter control sequences out of 15000+600000
+ 37253 multiletter control sequences out of 15000+600000
  410311 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,1874b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on victor_alves_cv.pdf (2 pages, 160205 bytes).
+Output written on victor_alves_cv.pdf (2 pages, 160831 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

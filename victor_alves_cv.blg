@@ -22,47 +22,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: victor_alves_cv-blx.bib
 Database file #2: papers.bib
-Biblatex version: 3.19
+Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 6 entries,
-            6399 wiz_defined-function locations,
-            1238 strings with 10115 characters,
-and the built_in function-call counts, 61505 in all, are:
-= -- 5282
-> -- 855
-< -- 240
-+ -- 1726
-- -- 356
-* -- 4836
-:= -- 7323
+You've used 7 entries,
+            6393 wiz_defined-function locations,
+            1244 strings with 10329 characters,
+and the built_in function-call counts, 60575 in all, are:
+= -- 4723
+> -- 1056
+< -- 300
++ -- 1497
+- -- 446
+* -- 4974
+:= -- 6930
 add.period$ -- 0
-call.type$ -- 6
-change.case$ -- 117
+call.type$ -- 7
+change.case$ -- 144
 chr.to.int$ -- 44
-cite$ -- 10
-duplicate$ -- 5514
-empty$ -- 5184
-format.name$ -- 467
-if$ -- 12521
+cite$ -- 12
+duplicate$ -- 5407
+empty$ -- 5212
+format.name$ -- 593
+if$ -- 12473
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 18
 missing$ -- 0
-newline$ -- 223
-num.names$ -- 281
-pop$ -- 1953
+newline$ -- 279
+num.names$ -- 344
+pop$ -- 2284
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 198
 quote$ -- 0
-skip$ -- 1256
+skip$ -- 1527
 stack$ -- 0
-substring$ -- 10754
-swap$ -- 954
-text.length$ -- 209
-text.prefix$ -- 5
+substring$ -- 9299
+swap$ -- 1196
+text.length$ -- 258
+text.prefix$ -- 6
 top$ -- 1
-type$ -- 192
+type$ -- 226
 warning$ -- 0
-while$ -- 804
+while$ -- 847
 width$ -- 0
-write$ -- 218
+write$ -- 273
